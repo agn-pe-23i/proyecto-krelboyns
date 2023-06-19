@@ -46,4 +46,4 @@ En todas las clases, el método "init" se encarga de inicializar los atributos d
 Cada objeto creado a partir de estas clases tiene dos atributos adicionales: "costo_renta" y "costo_venta", los cuales se inicializan en 0. Estos atributos podrían ser actualizados posteriormente con métodos específicos para cada tipo de producto
 
 Diagrama de bloques:  
-El diagrama de bloques que se esta presentando, muestra de manera mas dinamica la manera en  la que los modulos se dividen y el orden en el que se ejecuta cada uno, van desde la ejecución de el archivo main hasta el modulo encargado de la eliminaciaon de cualquier producto 
+El diagrama de bloques que se esta presentando, muestra de manera mas dinamica la manera en  la que los modulos se dividen y el orden en el que se ejecuta cada uno, van desde la ejecución de el archivo main hasta el modulo encargado de la eliminaciaon de cualquier producto, dicho diagrama se encuentra adjunto en el apartado "DIAGRAMA DE BLOQUE" 
