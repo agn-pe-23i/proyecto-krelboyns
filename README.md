@@ -97,8 +97,10 @@ Se asume que "catalogo.catalogo" es una variable que contiene el catálogo de pr
 Si ocurre algún error durante el proceso de guardado, se captura la excepción y se muestra un mensaje genérico de error.
 
                                                    DIAGRAMA DE ESTRUCTURA: 
+                                                   
 
-[Presentación1.pdf](https://github.com/agn-pe-23i/proyecto-krelboyns/files/11840458/Presentacion1.pdf)
+![Captura de pantalla 2023-06-22 150942](https://github.com/agn-pe-23i/proyecto-krelboyns/assets/125590988/b6d5faab-dfa1-4168-a7f7-e18aef4e3b70)
+
 
 El diagrama de estructura muestra cómo del módulo principal se desprenden otros dos módulos en los cuales estarán definidas las funciones principales para el funcionamiento del módulo principal.
 Los dos módulos son "archivo_catalogo", donde se desprenden las funciones de almacenamiento del catálogo, y "catalogo", que almacena todas las funciones principales de edición del catálogo, como agregar producto, eliminar producto, etc.
