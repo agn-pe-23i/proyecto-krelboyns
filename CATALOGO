@@ -12,7 +12,7 @@ class Pelicula(Producto):
         self.costo_alquiler = costo_alquiler
         self.costo_venta = costo_venta
 
-    # Agrega otros métodos necesarios para las películas
+    # Agrega otros datos necesarios para las películas
 
 class Serie(Producto):
     def _init_(self, titulo, actor, director, temporadas, costo_alquiler, costo_venta):
@@ -23,7 +23,7 @@ class Serie(Producto):
         self.costo_alquiler = costo_alquiler
         self.costo_venta = costo_venta
 
-    # Agrega otros métodos necesarios para las series
+    # Agrega otros datos necesarios para las series
 
 class Documental(Producto):
     def _init_(self, titulo, director, tema, año, costo_alquiler, costo_venta):
@@ -34,7 +34,7 @@ class Documental(Producto):
         self.costo_alquiler = costo_alquiler
         self.costo_venta = costo_venta
 
-    # Agrega otros métodos necesarios para los documentales
+    # Agrega otros datos necesarios para los documentales
 
 class EventoDeportivoEnVivo(Producto):
     def _init_(self, titulo, deporte, fecha, hora, lugar, costo_venta):
