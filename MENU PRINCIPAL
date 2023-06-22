@@ -1,8 +1,0 @@
-# main.py
-from menu import show_main_menu
-
-def main():
-    show_main_menu()
-
-if _name_ == '_main_':
-    main()
